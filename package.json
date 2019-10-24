@@ -23,9 +23,16 @@
     "eslint-config-prettier": "^6.4.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^3.1.1",
+    "husky": "^3.0.9",
     "mocha": "^6.2.2",
     "prettier": "^1.18.2",
-    "webdriver-manager": "^12.1.7",
-    "wd": "^1.11.4"
+    "prettier-quick": "0.0.5",
+    "wd": "^1.11.4",
+    "webdriver-manager": "^12.1.7"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
   }
 }
