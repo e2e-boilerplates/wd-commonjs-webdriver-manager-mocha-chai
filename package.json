@@ -27,6 +27,7 @@
     "mocha": "^6.2.2",
     "prettier": "^1.18.2",
     "prettier-quick": "0.0.5",
+    "pretty-quick": "^2.0.0",
     "wd": "^1.11.4",
     "webdriver-manager": "^12.1.7"
   },
