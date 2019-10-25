@@ -3,8 +3,8 @@ WD end-to-end test automation boilerplate project. Using webdriver-manager, comm
 
 ## Getting Started
 
-    git clone git@github.com:e2e-boilerplates/wd-webdriver-manager-commonjs-mocha-chai.git
-    cd wd-webdriver-manager-commonjs-mocha-chai
+    git clone git@github.com:e2e-boilerplates/wd-commonjs-webdriver-manager-mocha-chai.git
+    cd wd-commonjs-webdriver-manager-mocha-chai
     npm install
     npm run upadte-webderiver
     npm run start-webderiver
