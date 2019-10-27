@@ -1,7 +1,7 @@
 {
   "name": "wd-commonjs-webdriver-manager-mocha-chai",
   "version": "1.0.0",
-  "description": "WD end-to-end test automation boilerplate project. Using webdriver-manager, commonjs, mocha, and chai",
+  "description": "WD end-to-end test automation boilerplate project. Using webdriver-manager, commonjs, mocha, and chai.",
   "scripts": {
     "upadte-webderiver": "npx webdriver-manager update",
     "start-webderiver": "npx webdriver-manager start",
@@ -10,10 +10,14 @@
   },
   "keywords": [
     "wd",
+    "commonjs",
+    "webdriver-manager",
+    "mocha",
+    "chai",
     "boilerplate",
     "example"
   ],
-  "author": "Girma Nigusse",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "license": "MIT",
   "devDependencies": {
     "chai": "^4.2.0",
