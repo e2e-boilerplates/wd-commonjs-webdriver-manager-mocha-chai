@@ -5,7 +5,7 @@
   "scripts": {
     "upadte-webderiver": "npx webdriver-manager update",
     "start-webderiver": "npx webdriver-manager start",
-    "test": "npx mocha spec/search.spec.js",
+    "test": "npx mocha spec/sandbox.spec.js",
     "lint": "npx eslint --ext .js ./ --fix"
   },
   "keywords": [
