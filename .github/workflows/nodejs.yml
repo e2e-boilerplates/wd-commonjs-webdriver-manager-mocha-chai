@@ -24,3 +24,5 @@ jobs:
       - name: TEST
         run: |
           npm run test
+        env:
+          BROWSER: chrome
