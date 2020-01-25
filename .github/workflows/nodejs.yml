@@ -12,15 +12,15 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: "12.x"
-      - name: npm install, build, and test
+      - name: INSTALL
         run: |
           npm ci
         env:
           CI: true
-      - name: npm install, build, and test
+      - name: UPDATE & START WEBDRIVER
         run: |
           npm run upadte-webderiver
-          npm run start-webderiver
-      - name: npm install, build, and test
+          npm run start-webderiver &
+      - name: TEST
         run: |
           npm run test

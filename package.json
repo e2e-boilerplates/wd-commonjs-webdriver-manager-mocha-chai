@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "WD end-to-end test automation boilerplate project. Using webdriver-manager, commonjs, mocha, and chai.",
   "scripts": {
+    "lint": "npx eslint --ext .js ./ --fix",
     "upadte-webderiver": "npx webdriver-manager update",
     "start-webderiver": "npx webdriver-manager start",
-    "test": "npx mocha spec/sandbox.spec.js",
-    "lint": "npx eslint --ext .js ./ --fix"
+    "test": "npx mocha spec/sandbox.spec.js"
   },
   "keywords": [
     "wd",

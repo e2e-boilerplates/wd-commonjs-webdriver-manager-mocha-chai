@@ -2,6 +2,8 @@ const chai = require("chai");
 const chaiAsPromised = require("chai-as-promised");
 const wd = require("wd");
 
+const url = "https://e2e-boilerplates.github.io/sandbox/";
+
 chai.use(chaiAsPromised);
 chai.should();
 chaiAsPromised.transferPromiseness = wd.transferPromiseness;
@@ -9,9 +11,18 @@ chaiAsPromised.transferPromiseness = wd.transferPromiseness;
 describe("Sandbox", () => {
   before(() => {
     browser = wd.promiseChainRemote();
-    return browser
-      .init({ browserName: "chrome" }) // TODO headless
-      .get("https://e2e-boilerplates.github.io/sandbox/");
+    return process.env.GITHUB_ACTIONS
+      ? browser
+          .init({
+            browserName: "chrome",
+            "goog:chromeOptions": { args: ["--headless", "--disable-gpu"] }
+          })
+          .get(url)
+      : browser
+          .init({
+            browserName: "chrome"
+          })
+          .get(url);
   });
 
   after(() => {
