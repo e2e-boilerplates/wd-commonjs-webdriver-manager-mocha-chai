@@ -15,12 +15,21 @@ describe("Sandbox", () => {
       ? browser
           .init({
             browserName: "chrome",
-            "goog:chromeOptions": { args: ["--headless", "--disable-gpu"] }
+            "goog:chromeOptions": {
+              args: ["--headless", "--disable-gpu"],
+              // eslint-disable-next-line global-require
+              binary: require("puppeteer").executablePath()
+            }
           })
           .get(url)
       : browser
           .init({
-            browserName: "chrome"
+            browserName: "chrome",
+            "goog:chromeOptions": {
+              args: ["--headless", "--disable-gpu"],
+              // eslint-disable-next-line global-require
+              binary: require("puppeteer").executablePath()
+            }
           })
           .get(url);
   });

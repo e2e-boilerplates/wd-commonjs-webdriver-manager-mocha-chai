@@ -20,9 +20,7 @@ jobs:
       - name: UPDATE & START WEBDRIVER
         run: |
           npm run upadte-webderiver
-          npm run start-webderiver &
+
       - name: TEST
         run: |
           npm run test
-        env:
-          BROWSER: chrome
