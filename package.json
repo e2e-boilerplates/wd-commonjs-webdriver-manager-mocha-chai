@@ -1,24 +1,6 @@
 {
-  "name": "wd-commonjs-webdriver-manager-mocha-chai",
-  "version": "1.0.0",
-  "description": "WD end-to-end test automation boilerplate project. Using webdriver-manager, commonjs, mocha, and chai.",
-  "scripts": {
-    "lint": "npx eslint --ext .js ./ --fix",
-    "upadte-webderiver": "npx webdriver-manager update",
-    "start-webderiver": "npx webdriver-manager start",
-    "test": "npx mocha spec/sandbox.spec.js"
-  },
-  "keywords": [
-    "wd",
-    "commonjs",
-    "webdriver-manager",
-    "mocha",
-    "chai",
-    "boilerplate",
-    "example"
-  ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
-  "license": "MIT",
+  "description": "WD end-to-end test automation boilerplate project. Using webdriver-manager, commonjs, mocha, and chai.",
   "devDependencies": {
     "chai": "4.2.0",
     "chai-as-promised": "7.1.1",
@@ -26,6 +8,7 @@
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-config-prettier": "6.9.0",
     "eslint-plugin-import": "2.20.0",
+    "eslint-plugin-json": "^2.1.0",
     "eslint-plugin-prettier": "3.1.2",
     "husky": "4.2.3",
     "mocha": "7.1.0",
@@ -39,5 +22,32 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  }
+  },
+  "keywords": [
+    "boilerplate",
+    "chai",
+    "commonjs",
+    "e2e",
+    "e2e tests",
+    "example",
+    "integration test",
+    "manager",
+    "mocha",
+    "selenium-webdriver",
+    "wd",
+    "webdriver"
+  ],
+  "license": "MIT",
+  "name": "wd-commonjs-webdriver-manager-mocha-chai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplates/wd-commonjs-webdriver-manager-mocha-chai.git"
+  },
+  "scripts": {
+    "lint": "npx eslint --ext .js ./ --fix",
+    "upadte-webderiver": "npx webdriver-manager update",
+    "start-webderiver": "npx webdriver-manager start",
+    "test": "npx mocha spec/sandbox.spec.js"
+  },
+  "version": "1.0.0"
 }
