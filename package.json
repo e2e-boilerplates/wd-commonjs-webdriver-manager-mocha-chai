@@ -40,9 +40,9 @@
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
-    "upadte-webderiver": "npx webdriver-manager update",
     "start-webderiver": "npx webdriver-manager start",
-    "test": "npx mocha spec/sandbox.spec.js"
+    "test": "npx mocha spec/sandbox.spec.js",
+    "upadte-webderiver": "npx webdriver-manager update"
   },
   "version": "1.0.0"
 }
