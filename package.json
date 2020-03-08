@@ -1,6 +1,6 @@
 {
-  "author": "",
-  "description": "WD end-to-end test automation boilerplate project. Using webdriver-manager, commonjs, mocha, and chai.",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "description": "wd end-to-end test automation boilerplate.",
   "devDependencies": {
     "chai": "4.2.0",
     "chai-as-promised": "7.1.1",
@@ -24,8 +24,13 @@
     }
   },
   "keywords": [
+    "boilerplate",
     "chai",
     "commonjs",
+    "e2e",
+    "e2e tests",
+    "example",
+    "integration test",
     "manager",
     "mocha",
     "selenium-webdriver",
