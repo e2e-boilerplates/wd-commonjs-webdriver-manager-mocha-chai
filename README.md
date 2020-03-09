@@ -6,7 +6,7 @@ WD end-to-end test automation boilerplate, using Commonjs, Webdriver-Manager, Mo
 
 ## Getting Started
 
-git clone git@github.com:e2e-boilerplate/wd-commonjs-webdriver-manager-mocha-chai-should.git
-cd wd-commonjs-webdriver-manager-mocha-chai-should
-npm install
-npm run test
+    	git clone git@github.com:e2e-boilerplate/wd-commonjs-webdriver-manager-mocha-chai-should.git
+    	cd wd-commonjs-webdriver-manager-mocha-chai-should
+    	npm install
+    	npm run test
