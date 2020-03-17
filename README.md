@@ -1,4 +1,4 @@
-[![GitHub Actions status | e2e-boilerplate/wd-commonjs-webdriver-manager-mocha-chai-should](https://github.com/e2e-boilerplate/wd-commonjs-webdriver-manager-mocha-chai-should/workflows/wd-commonjs-webdriver-manager-mocha-chai-should/badge.svg)](https://github.com/e2e-boilerplate/wd-commonjs-webdriver-manager-mocha-chai-should/actions?workflow=wd-commonjs-webdriver-manager-mocha-chai-should)
+[![GitHub Actions status | e2e-boilerplate/wd-commonjs-webdriver-manager-mocha-chai-should](https://github.com/e2e-boilerplate/wd-commonjs-webdriver-manager-mocha-chai-should/workflows/wd-commonjs-webdriver-manager-mocha-chai-should/badge.svg)](https://github.com/e2e-boilerplate/wd-commonjs-webdriver-manager-mocha-chai-should/actions?workflow=wd-commonjs-webdriver-manager-mocha-chai-should) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # WD Boilerplate
 
