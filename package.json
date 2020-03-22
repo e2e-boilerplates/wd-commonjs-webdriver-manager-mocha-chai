@@ -1,8 +1,9 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/wd-commonjs-webdriver-manager-mocha-chai-should/issues"
   },
+  "dependencies": {},
   "description": "WD end-to-end test automation boilerplate. using Commonjs, Webdriver-Manager, Mocha, Chai and Should.",
   "devDependencies": {
     "chai": "4.2.0",
@@ -27,13 +28,8 @@
     }
   },
   "keywords": [
-    "boilerplate",
     "chai",
     "commonjs",
-    "e2e",
-    "e2e tests",
-    "example",
-    "integration test",
     "mocha",
     "selenium-webdriver",
     "should",
@@ -52,6 +48,5 @@
     "test": "npx mocha spec/sandbox.spec.js",
     "upadte-webderiver": "npx webdriver-manager update"
   },
-  "version": "1.0.0",
-  "dependencies": {}
+  "version": "1.0.0"
 }
