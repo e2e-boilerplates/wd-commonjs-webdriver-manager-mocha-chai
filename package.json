@@ -6,9 +6,11 @@
   "dependencies": {
     "chai": "4.2.0",
     "chai-as-promised": "7.1.1",
-    "wd": "1.12.1"
+    "mocha": "7.1.1",
+    "wd": "1.12.1",
+    "webdriver-manager": "12.1.7"
   },
-  "description": "WD end-to-end test automation boilerplate. using Commonjs, Webdriver-Manager, Mocha, Chai and Should.",
+  "description": "WD end-to-end test automation boilerplate. Using Commonjs, Webdriver-Manager, Mocha, Chai and Should.",
   "devDependencies": {
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.1.0",
@@ -16,7 +18,7 @@
     "eslint-plugin-import": "2.20.1",
     "eslint-plugin-prettier": "3.1.2",
     "husky": "4.2.3",
-    "prettier": "2.0.1",
+    "prettier": "1.19.1",
     "pretty-quick": "2.0.1"
   },
   "homepage": "https://github.com/e2e-boilerplate/wd-commonjs-webdriver-manager-mocha-chai-should#readme",
