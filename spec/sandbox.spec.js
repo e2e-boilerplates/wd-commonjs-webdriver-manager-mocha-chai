@@ -18,8 +18,8 @@ describe("Sandbox", () => {
             "goog:chromeOptions": {
               args: ["--headless", "--disable-gpu"],
               // eslint-disable-next-line global-require
-              binary: require("puppeteer").executablePath()
-            }
+              binary: require("puppeteer").executablePath(),
+            },
           })
           .get(url)
       : browser
@@ -28,8 +28,8 @@ describe("Sandbox", () => {
             "goog:chromeOptions": {
               args: ["--headless", "--disable-gpu"],
               // eslint-disable-next-line global-require
-              binary: require("puppeteer").executablePath()
-            }
+              binary: require("puppeteer").executablePath(),
+            },
           })
           .get(url);
   });
@@ -38,15 +38,15 @@ describe("Sandbox", () => {
     browser.quit();
   });
 
-  it("should be on Sandbox", done => {
+  it("should be on Sandbox", (done) => {
     browser
       .title()
-      .then(title => {
+      .then((title) => {
         title.should.equal("Sandbox");
       })
       .elementByTagName("h1")
       .text()
-      .then(text => {
+      .then((text) => {
         text.should.equal("Sandbox");
       })
       .nodeify(done);
