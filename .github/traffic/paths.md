@@ -1,0 +1,12 @@
+| referrer                                                                                                         | count | uniques |
+| :--------------------------------------------------------------------------------------------------------------- | :---- | :------ |
+| /e2e-boilerplate/wd-commonjs-webdriver-manager-mocha-chai-should                                                 | 12    | 1       |
+| /e2e-boilerplate/wd-commonjs-webdriver-manager-mocha-chai-should/blob/master/.github/runs_status.md              | 7     | 1       |
+| /e2e-boilerplate/wd-commonjs-webdriver-manager-mocha-chai-should/tree/master/.github                             | 7     | 1       |
+| /e2e-boilerplate/wd-commonjs-webdriver-manager-mocha-chai-should/actions                                         | 5     | 1       |
+| /e2e-boilerplate/wd-commonjs-webdriver-manager-mocha-chai-should/commits/master                                  | 5     | 1       |
+| /e2e-boilerplate/wd-commonjs-webdriver-manager-mocha-chai-should/edit/master/.github/runs_status.md              | 3     | 1       |
+| /e2e-boilerplate/wd-commonjs-webdriver-manager-mocha-chai-should/actions/runs/61932782                           | 1     | 1       |
+| /e2e-boilerplate/wd-commonjs-webdriver-manager-mocha-chai-should/actions/runs/65533162                           | 1     | 1       |
+| /e2e-boilerplate/wd-commonjs-webdriver-manager-mocha-chai-should/blob/master/.github/workflows/nodejs.yml        | 1     | 1       |
+| /e2e-boilerplate/wd-commonjs-webdriver-manager-mocha-chai-should/commit/3a58db4cf61ccc8425738513bce156fd8207a577 | 1     | 1       |
