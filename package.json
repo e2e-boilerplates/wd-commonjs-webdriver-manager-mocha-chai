@@ -37,7 +37,6 @@
     "example",
     "integration test",
     "mocha",
-    "selenium-webdriver",
     "should",
     "wd",
     "webdriver manager"
