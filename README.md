@@ -2,7 +2,7 @@
     
 # WD Boilerplate
     
-WD end-to-end test automation boilerplate, Using [Commonjs](https://requirejs.org/docs/commonjs.html), [Webdriver-Manager](https://github.com/angular/webdriver-manager#readme), [Mocha](https://mochajs.org), [Chai](https://www.chaijs.com) and [Commonjs](https://www.chaijs.com/api/bdd/).. Clone or fork this repository.
+WD end-to-end test automation boilerplate, Using [Commonjs](https://requirejs.org/docs/commonjs.html), [Webdriver-Manager](https://github.com/angular/webdriver-manager#readme), [Mocha](https://mochajs.org), [Chai](https://www.chaijs.com) and [Commonjs](https://www.chaijs.com/api/bdd/). Clone or fork this repository.
     
 ## Getting Started
     
